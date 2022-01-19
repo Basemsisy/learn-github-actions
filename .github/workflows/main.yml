@@ -37,7 +37,7 @@ jobs:
       
       - name: print path
         run: |
-          what is our packages?
+          echo what is our packages?
           npm install yarn 
     
     
