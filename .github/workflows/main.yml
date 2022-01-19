@@ -28,15 +28,17 @@ jobs:
           env
           
   build:
+  
     runs-on: ubuntu-latest
     
     steps:
+    
       - uses: actions/checkout@v2
       
       - name: print path
         run: |
           what is our packages?
-          npm i yarn 
+          npm install yarn 
     
     
     
