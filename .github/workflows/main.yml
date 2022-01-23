@@ -35,8 +35,8 @@ jobs:
     
       - uses: actions/checkout@v2
       
-      - name: print path
-        run: ./shell-script.sh
+      - name: external shell script
+        run: sh ./shell-script.sh
     
     
     
